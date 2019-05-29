@@ -27,7 +27,7 @@ archive_dir: archives               #归档
 category_dir: categories            #类别
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: README.md              #忽略README.md的渲染
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -86,9 +86,16 @@ deploy:
 
 
 
-#表示站内搜索
+# 表示站内搜索
 search:
   path: search.xml
   field: post
   format: html
   limit: 10000
+
+# 添加字数统计
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true

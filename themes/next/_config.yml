@@ -202,8 +202,8 @@ site_state: true
 social:
   GitHub: https://github.com/haoprogrammer || github
   E-Mail: mailto:haoprogrammer@hotmail.com || envelope
-  Cnblogs: https://www.cnblogs.com/haoprogrammer || solid
-  About-Me: https://www.cnblogs.com/haoprogrammer || running
+  Cnblogs: https://www.cnblogs.com/haoprogrammer || crosshairs
+  #掘金: https://www.cnblogs.com/haoprogrammer || spinner
   #Weibo: https://weibo.com/yourname || weibo
   #Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
@@ -364,12 +364,12 @@ wechat_subscriber:
 reward_settings:
   # If true, reward would be displayed in every article by default.
   # You can show or hide reward in a specific article throuth `reward: true | false` in Front-matter.
-  enable: false
+  enable: true
   animation: false
   #comment: Donate comment here
 
 reward:
-  wechatpay: /images/wechatpay.png
+  wechatpay: /images/wechatreward.png
   #alipay: /images/alipay.png
   #bitcoin: /images/bitcoin.png
 
@@ -1217,3 +1217,14 @@ vendors:
 css: css
 js: js
 images: images
+
+
+# Calculate the number of statistical words
+post_wordcount:
+  item_text: true
+  wordcount: true
+  min2read: true
+
+# 文章末尾添加“本文结束”标记
+passage_end_tag:
+  enabled: true

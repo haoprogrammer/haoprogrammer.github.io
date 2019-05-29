@@ -347,6 +347,13 @@
     {% else %}
       {% set reward_able = page.reward %}
     {% endif %}
+
+    {% if not is_index %}
+      <div>
+        {% include 'passage-end-tag.swig' %}
+      </div>
+    {% endif %}
+
     {% if reward_able and not is_index %}
       <div>
         {% include '../_partials/post/reward.swig' %}
