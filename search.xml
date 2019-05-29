@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Hello World]]></title>
+    <title><![CDATA[github + hexo 博客维护]]></title>
     <url>%2F%2F2019%2F05%2F29%2F2019%2F2019-5-29%2F</url>
-    <content type="text"><![CDATA[Linux###]]></content>
+    <content type="text"><![CDATA[github + hexo 博客维护日常上传博客流程123456789# 推送到源文件到github$ git add .$ git commit -m "your message"$ git push origin hexo #将此时hexo分支推送到github# 将博客发布到master分支$ hexo clean$ hexo g$ hexo -d 其他终端上传博客如果你想在另一个电脑上上传你自己的博客，那么你只需要如下做即可： 从repo仓库上将项目代码clone到本地。 此时本地只有master分支，切换到hexo分支。123$ git branch # 查看当前分支$ git checkout -b hexo origin/hexo$ git branch # 再次查看，确保分支此时是hexo 此时查看拉下来的repo有没有.deploy_git文件夹，如果有的话，删除并重新安装本地的hexo-deployer。 12$ rm -r .deploy_git$ npm install hexo-deployer-git --save 参考 快速搭建多终端同步的 github + hexo 静态博客]]></content>
       <categories>
-        <category>Linux</category>
+        <category>hexo</category>
       </categories>
       <tags>
-        <tag>Linux</tag>
-        <tag>Network</tag>
+        <tag>github</tag>
+        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>

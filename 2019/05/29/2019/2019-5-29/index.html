@@ -122,18 +122,18 @@
 
 
 
-  <meta name="description" content="Linux###">
-<meta name="keywords" content="Linux,Network">
+  <meta name="description" content="github + hexo 博客维护日常上传博客流程123456789# 推送到源文件到github$ git add .$ git commit -m &quot;your message&quot;$ git push origin hexo                #将此时hexo分支推送到github# 将博客发布到master分支$ hexo clean$ hexo g$ hexo -d  其他终端上">
+<meta name="keywords" content="github,hexo">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
+<meta property="og:title" content="github + hexo 博客维护">
 <meta property="og:url" content="https://github.com/haoprogrammer/haoprogrammer.github.io.git/2019/05/29/2019/2019-5-29/index.html">
 <meta property="og:site_name" content="haoprogrammer">
-<meta property="og:description" content="Linux###">
+<meta property="og:description" content="github + hexo 博客维护日常上传博客流程123456789# 推送到源文件到github$ git add .$ git commit -m &quot;your message&quot;$ git push origin hexo                #将此时hexo分支推送到github# 将博客发布到master分支$ hexo clean$ hexo g$ hexo -d  其他终端上">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-05-29T10:47:17.712Z">
+<meta property="og:updated_time" content="2019-05-29T11:02:33.998Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Linux###">
+<meta name="twitter:title" content="github + hexo 博客维护">
+<meta name="twitter:description" content="github + hexo 博客维护日常上传博客流程123456789# 推送到源文件到github$ git add .$ git commit -m &quot;your message&quot;$ git push origin hexo                #将此时hexo分支推送到github# 将博客发布到master分支$ hexo clean$ hexo g$ hexo -d  其他终端上">
 
 
 
@@ -151,7 +151,7 @@
   };
 </script>
 
-  <title>Hello World | haoprogrammer</title>
+  <title>github + hexo 博客维护 | haoprogrammer</title>
   
 
 
@@ -450,7 +450,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Hello World
+          <h1 class="post-title" itemprop="name headline">github + hexo 博客维护
 
               
             
@@ -476,7 +476,7 @@
                 
               
 
-              <time title="创建时间：2019-05-29 00:00:00 / 修改时间：10:47:17" itemprop="dateCreated datePublished" datetime="2019-05-29T00:00:00Z">2019-05-29</time>
+              <time title="创建时间：2019-05-29 00:00:00 / 修改时间：11:02:33" itemprop="dateCreated datePublished" datetime="2019-05-29T00:00:00Z">2019-05-29</time>
             
 
             
@@ -498,7 +498,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Linux/" itemprop="url" rel="index"><span itemprop="name">Linux</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/hexo/" itemprop="url" rel="index"><span itemprop="name">hexo</span></a></span>
 
                 
                 
@@ -527,7 +527,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">10</span>
+                <span title="本文字数">528</span>
               
 
               
@@ -561,7 +561,19 @@
       
 
       
-        <h2 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h2><p>### </p>
+        <h2 id="github-hexo-博客维护"><a href="#github-hexo-博客维护" class="headerlink" title="github + hexo 博客维护"></a>github + hexo 博客维护</h2><h3 id="日常上传博客流程"><a href="#日常上传博客流程" class="headerlink" title="日常上传博客流程"></a>日常上传博客流程</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 推送到源文件到github</span></span><br><span class="line">$ git add .</span><br><span class="line">$ git commit -m <span class="string">"your message"</span></span><br><span class="line">$ git push origin hexo                <span class="comment">#将此时hexo分支推送到github</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 将博客发布到master分支</span></span><br><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo -d</span><br></pre></td></tr></table></figure>
+
+<h3 id="其他终端上传博客"><a href="#其他终端上传博客" class="headerlink" title="其他终端上传博客"></a>其他终端上传博客</h3><p>如果你想在另一个电脑上上传你自己的博客，那么你只需要如下做即可： </p>
+<ol>
+<li>从repo仓库上将项目代码clone到本地。 </li>
+<li>此时本地只有master分支，切换到hexo分支。<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ git branch    <span class="comment"># 查看当前分支</span></span><br><span class="line">$ git checkout -b hexo origin/hexo</span><br><span class="line">$ git branch    <span class="comment"># 再次查看，确保分支此时是hexo</span></span><br></pre></td></tr></table></figure>
+
+</li>
+</ol>
+<p>此时查看拉下来的repo有没有.deploy_git文件夹，如果有的话，删除并重新安装本地的hexo-deployer。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ rm -r .deploy_git</span><br><span class="line">$ npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<p>参考  <a href="https://blog.csdn.net/csdn_lisword/article/details/73804982" target="_blank" rel="noopener">快速搭建多终端同步的 github + hexo 静态博客</a></p>
 
       
     </div>
@@ -621,9 +633,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/Linux/" rel="tag"> <i class="fa fa-tag"></i> Linux</a>
+            <a href="/tags/github/" rel="tag"> <i class="fa fa-tag"></i> github</a>
           
-            <a href="/tags/Network/" rel="tag"> <i class="fa fa-tag"></i> Network</a>
+            <a href="/tags/hexo/" rel="tag"> <i class="fa fa-tag"></i> hexo</a>
           
         </div>
       
@@ -834,7 +846,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Linux"><span class="nav-number">1.</span> <span class="nav-text">Linux</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#github-hexo-博客维护"><span class="nav-number">1.</span> <span class="nav-text">github + hexo 博客维护</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#日常上传博客流程"><span class="nav-number">1.1.</span> <span class="nav-text">日常上传博客流程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#其他终端上传博客"><span class="nav-number">1.2.</span> <span class="nav-text">其他终端上传博客</span></a></li></ol></li></ol></div>
             
 
           </div>
@@ -867,7 +879,7 @@
       <i class="fa fa-area-chart"></i>
     </span>
     
-    <span title="站点总字数">0k</span>
+    <span title="站点总字数">1k</span>
   
 
   
@@ -897,7 +909,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共74字</span>
+  <span class="post-count">博客全站共287字</span>
 </div>
 
         
